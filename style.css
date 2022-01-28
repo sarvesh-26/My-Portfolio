@@ -1,0 +1,189 @@
+ <-------------------------css code----------------------->
+body{
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: #161616;
+     height: 700px; 
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 85%, 0 100%);
+}
+/* .contact{
+    background-color: #161616;
+     height: 700px; 
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 85%, 0 100%);
+
+} */
+
+.container{
+    max-width: 1152px;
+    padding: 0 150px;
+    margin: 0 auto;
+
+}
+header nav .left a{
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+    
+}
+
+
+.left a:hover{
+    color: #3df;
+
+}
+header nav{
+    padding: 2rem 0;
+}
+.right{
+    padding-right: 200px;
+}
+
+
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+
+.hero .left img{
+    width: 400px;
+}
+.hero .right{
+    color: white;
+}
+.hero .right h6{
+    font-size: 1.6rem;
+    color:#3df ;
+    margin-bottom: 0.5rem;
+}
+.hero .right h1{
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+
+    
+}
+.hero .right h1 span{
+    color: #3df;
+}
+.hero .right p{
+    line-height: 1.9;
+    margin-bottom: 2;
+}
+.btn-secondary{
+    background: transparent;
+    color: #3df;
+    border-color: #3df;
+}
+.btn-secondary:hover{
+    background: #3df;
+    color: #161616;
+    cursor: pointer;
+}
+.flex-1{
+    flex-1;
+}
+.justify-center{
+    justify-content: center;
+}
+.hero .right{
+    margin-top: -7remS;
+}
+section{
+    padding: 6rem;
+}
+.about-me-img{
+    width: 500px;
+    padding: 3rem;
+}
+.section-heading{
+    color: black;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    line-height: 0.5;
+    padding-bottom: 12%;
+
+}
+.section-heading span{
+    color: #3df;
+}
+
+
+.card-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 3rem;
+    margin-right: auto;
+    grid-column-gap: 2rem;
+}
+.container-services{
+    margin-top: 10rem;
+    padding-top: 2.5rem;
+    background: rgb(230, 222, 222);
+    height: 500px;
+
+}
+.card-wrapper .card{
+    background: white;
+    padding: 3rem 2rem;
+    text-align: center;
+    position: relative;
+    margin-bottom: 5rem;
+}
+.card-wrapper .card img{
+    position: absolute;
+    top: -6rem;
+    left: 23.33%;
+
+}
+.card-wrapper .card h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+/* .card-wrapper .card:hover{
+    background: rgb(138, 127, 127);
+    cursor: pointer;
+} */
+
+.input-wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: .5rem;
+    margin-bottom: 2rem;
+    border: 1px solid rgb(219, 222, 223);
+    
+}
+.contact input{
+    padding: 1rem 1rem;
+    border: 1px solid rgb(219, 222, 223);
+}
+.input-wrap-2 textarea{
+    padding: .5rem;
+    border: 1px solid rgb(219, 222, 223);
+}
+.btn-wrapper{
+    text-align: center;
+    margin-top: 2rem;
+    font-color: black;
+    
+}
+
+.copyright{
+    background: black;
+    color: white;
+    padding: 3rem;
+}
